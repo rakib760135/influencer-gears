@@ -5,16 +5,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* <!-- nav-bar section start --> */
-
+/* <!-- nav-bar style section start --> */
 .nav-bar{
-    height: 88px;
+    height: 85px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 70px;
     border-bottom: 1px solid gray;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
 }
 
 .nav-bar h2{
@@ -45,4 +47,134 @@
     font-size: 30px;
 }
 
-/* nav-bar section end  */
+/* nav-bar style section end  */
+
+
+/* Hero Area style Start */
+
+.hero-section{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-left{
+    width: 50%;
+}
+
+.hero-left h2{
+    font-size: 50px;
+    font-weight:900px;
+    margin-bottom: 28px;
+}
+
+.hero-left p{
+    width: 85%;
+    margin-bottom: 35px;
+}
+
+.hero-left button{
+    color: white;
+    background-color: #E02C6D;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.hero-right{
+    width: 50%;
+    background-image: url(/images/Circle\ design.svg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* hreo area style section End */
+
+
+/* company partners style section */
+
+.company{
+    margin-top:80px;
+    margin-bottom: 50px;
+}
+.company-logo{
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1.5px solid lightgray;
+    border-bottom: 1.5px solid lightgray;
+
+}
+
+
+/* Popular-Collection style section start */
+
+.Popular-Collection h2{
+    text-align: center;
+    font-size:35px;
+    margin: 70px 0;
+    font-weight: 750;
+}
+
+  .collections{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    gap: 22px;
+    margin-bottom: 100px;
+  }
+
+  .collections-box{
+    padding:17px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 1px 1px 19px #ddd;
+  }
+
+  .img-box img{
+    height: 283px;
+  }
+
+  .ratings{
+    display: flex;
+    gap: 10px;
+  }
+
+  .ratings img{
+    height: 12px;
+    margin-left: 1;
+  }
+
+
+  .box1 h3{
+    font-size: 28px;
+    margin:18px 0;
+  }
+
+  .box1 .price{
+    font-size: 20px;
+    color: rgb(65, 100, 30)
+
+  }
+
+  .box1 p{
+    width: 80%;
+    margin: 5px 0;
+  }
